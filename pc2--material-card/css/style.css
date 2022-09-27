@@ -1,1 +1,61 @@
 /* Write CSS code here */
+img{
+   margin-left: 10px;
+   margin-top: 50px;
+   
+
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+}
+#id1{
+   
+}
+.content{
+    background-color: rgba(128, 128, 128, 0.093);
+    margin-left: 200px;
+    width: 500px;
+    height: 650px;
+    margin-top: 20px;
+    box-shadow: 10px solid black;
+}
+#icon{
+   float: left;
+    margin-left: 70px;
+    margin-top: 70px; 
+}
+#f{
+    margin-left: 200px;    
+}
+
+ i{
+    width: 100px;  
+    margin-bottom: -50px;
+   
+   
+}
+#id1{
+    width: 500px;
+}
+img{
+    margin-left: 50px;
+    margin-top: 50px;
+   
+}
+#footall{
+    
+    display: flex;
+   margin-left: 70px;
+    font-size: larger;
+    color: gray;
+    
+}
+#head{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+span{
+    font-size: large;
+    color: gray;
+}

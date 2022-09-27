@@ -5,42 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Material card using float</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link id="cloud" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
      <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <main class="body">
-        <div>
+        <div class="content">
             <article>
                 <section>
-                    <div>
-                        <i class="icon ion-ios-color-filter"></i>
+                    <div id="id1" style="font-size:100px;">
+                        <i id="icon" class="icon ion-ios-color-filter"></i>
                     </div>
-                    <h3>
-                       Material Cards
-                    </h3>
-                    <h6>
-                       Making cards accessible
-                    </h6>
+                    <h2 id="head">
+                        Material Cards
+                      <br>
+                       <span>Making cards accessible</span>
+                    </h2>
                 </section>
                 <section>
-                    <img src="https://picsum.photos/seed/picsum/400/200">
+                    <img id="i1" src="https://picsum.photos/seed/picsum/400/200">
                 </section>
                 <section>
-                    <p>
-                        Card layouts can vary to support the types of content they contain. The following elements are
-                        commonly found among that variety.
-                    </p>
+                    <pre>
+                <p style="color: lightslategrey;">
+        <b>Card layouts can vary to support the types of content 
+        they contain. The following elements are commonly 
+        found among that variety.</b>
+                </p>
+                </pre>
                 </section>
-                <section>
+                <section id="foot">
+                    <nav id="footall">
                     <div>
                         <a href="#">Design</a>
                         <a href="#">Implement</a>
                     </div>
-                    <div>
+                    <div id="f">
                         <i class="icon ion-android-favorite"></i>
                         <i class="icon ion-android-share-alt"></i>
                     </div>
+                    </nav>
                 </section>
             </article>
         </div>
